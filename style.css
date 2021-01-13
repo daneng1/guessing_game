@@ -1,33 +1,45 @@
 body {
   background-color: rgb(233, 233, 231);
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0px;
+  margin: 0px 10px;
+}
+figure {
+  text-align: center;
+}
+.images {
+border: 1px solid black;
+border-radius: 20px;
+
+margin: 0px 10px;
 }
 h1 {
-  text-align: center;
+  text-align: left;
   font-size: 64px;
-  background-color: white;
-  padding: 25px 0px;
+  background-image: url("pic1.jpg");
+  background-color: hsl(0, 0%, 100%, 10%);
+  padding: 20px 0px;
   margin: 0px;
 }
 
 p {
   font-size: 24px;
-  border: 2px solid rgb(75, 75, 75);
+  border: 2px solid rgb(46, 46, 46);
   border-radius: 5px;
   padding: 10px;
-  text-align: left;
-  background-color: rgb(111, 172, 116);
+  color: rgb(25, 58, 58);
+  background-color: rgb(195, 210, 219);
+ 
 }
-ol {
+ nav ol {
   text-align: center;
 
 }
-ol li{
+nav ol li{
   list-style: none;
   text-decoration: none;
   display: inline-block;
   text-align: center;
+  margin: 0px 10px;
   padding: 10px 30px;
   color: rgb(5, 5, 5);
   background-color: rgb(206, 222, 231);
@@ -35,16 +47,41 @@ ol li{
   border-radius: 20px;
 }
 
-li:hover {
+nav ol li:hover {
   background-color: rgb(230, 244, 252);
   font-weight: bolder;
 }
 
-h3 {
-  text-align: center;
-  font-size: 48px;
-  background-color: rgb(36, 35, 35);
-  color:  rgb(233, 233, 231);
-  padding: 25px 0px;
+h2 {
+  text-align: left;
+  font-size: 32px;
+  /* background-color: rgb(36, 35, 35); */
+  color:  rgb(22, 22, 22);
+  padding: 0px 0px;
   margin: 0px;
+}
+footer ol{
+  text-align: center;
+  position: sticky; 
+  bottom: 0px;
+  
+}
+footer ol li {
+  list-style: none;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  margin: 0px 50px;
+  padding: 10px 60px;
+  color: rgb(248, 246, 246);
+  background-color: rgb(5, 5, 5);
+  border: 1px solid black;
+  border-radius: 20px; 
+  
+
+}
+footer ol li:hover {
+  background-color: rgb(65, 64, 64);
+  color: rgb(228, 225, 225);
+ 
 }
