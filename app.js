@@ -6,7 +6,39 @@ let userName = prompt('Please enter your name');
 alert(greeting + userName + ', thanks for visiting our page! We have a fun little quiz about our founder Dan! Play it to see how well you know him!');
 console.log('The users name is ' + userName);
 
-  
+// var arrayOfQuestions = ['Yes or No, I have visited four continents.','Yes or No, My favorite food is ramen.','Yes or No, I have chickens and a dog as pets','Yes or No, I live in West Seattle','Yes or No, I enjoy snowboarding, trail running and backpacking.'];
+// var arrayofYesAnswers = ['Awe too bad ' + userName + ', the correct answer is three.', 'Correct ' + userName + '! I love ramen and had it every day while visiting Japan!!', 'You are right ' + userName + '! I have five chickens and a dog named Oscar!!', 'Well done ' + userName + '! I\'ve lived in West Seattle for 14 years!', 'Yep you are correct ' + userName + '!'];
+// var arrayOfNoAnswers = ['Thats right ' + userName + '! I have visited three continents!', 'So sorry ' + userName + ', ramen IS my favorite food!', 'So sorry ' + userName + ', I do indeed have five chickens and a dog named Oscar.', 'Sorry ' + userName + ', this was an easy one. I do live in West Seattle.', 'Oh geez ' + userName + ', this was an easy one. So sorry!'];
+// var response = '';
+
+// quiz();
+
+// function quiz() {
+//   for (i=0; i<5; i++) {
+//     var response = prompt(arrayOfQuestions.length[i], '')
+//       console.log(response);
+//     var answer = response.toLowerCase();
+//     if (answer === "no" || response === "n") {
+//       alert(arrayOfNoAnswers.length[i]);
+//       return(answer);
+//     }
+//       else if (answer === "yes" || answer === "y") {
+//       alert(arrayofYesAnswers.length[i]);
+//       return(answer);  
+      
+//     }
+//       else {
+//         alert('It seems you are having trouble typing ' + userName + '. Better luck on the next question!') 
+//       i++;
+//     }
+//   }
+// }
+
+
+
+
+
+
 let travel = prompt ('Yes or No, I have visited four continents.', '');
 console.log(travel);
 let response1 =travel.toLowerCase();
@@ -122,6 +154,18 @@ while (i < 7 && response7 != arrayOfAnswers[2]) {
   
 alert ('Thanks for playing our game! You guessed ' + score + ' answers correctly!!');
 
+
+
+
+// var numbers = [10,3,2,5,7,6,9,12,15,4,19,1]; 
+
+
+//  for (i=0; i < numbers.length ; i++) {
+//    if (numbers[i] < 6 || numbers[i] > 12) {
+//     console.log(i);
+//     console.log(numbers[i]);
+//    }
+//  }
 
 
 

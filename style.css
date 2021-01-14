@@ -2,6 +2,7 @@ body {
   background-color: rgb(233, 233, 231);
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px 10px;
+  width: 1200px;
 }
 figure {
   width: 20%;
@@ -60,6 +61,10 @@ section ol{
 }
  nav ol {
   text-align: center;
+  position: absolute;
+  top: 50px;
+  right: 50px;
+  
 
 }
 nav ol li{
@@ -78,6 +83,7 @@ nav ol li{
 nav ol li:hover {
   background-color: rgb(230, 244, 252);
   font-weight: bolder;
+  
 }
 
 h2 {
@@ -90,8 +96,8 @@ h2 {
 }
 footer ol{
   text-align: center;
-  position: sticky; 
-  bottom: 0px;
+  position: static; 
+  bottom: inherit;
   
 }
 footer ol li {
