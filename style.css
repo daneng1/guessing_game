@@ -1,4 +1,10 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Potta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
 body {
+  background-image: url("bkgnd.jpg");
   background-color: rgb(233, 233, 231);
   font-family: Arial, Helvetica, sans-serif;
   margin: 0px 10px;
@@ -19,6 +25,7 @@ border-radius: 20px;
 margin: 10px 10px;
 }
 h1 {
+  font-family: 'Potta One', cursive;
   text-align: left;
   font-size: 64px;
   background-image: url("pic1.jpg");
@@ -87,6 +94,8 @@ nav ol li:hover {
 }
 
 h2 {
+  font-family: 'Roboto', sans-serif;
+
   text-align: left;
   font-size: 32px;
   /* background-color: rgb(36, 35, 35); */
